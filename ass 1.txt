@@ -1,0 +1,61 @@
+import java.util.*;  
+
+
+
+class PalindromeExample{  
+ public static void main(String args[]){  
+  int r,sum=0,temp;   
+
+Scanner sc= new Scanner(System.in);    //System.in is a standard input stream  
+System.out.print("Enter a value to check wheather polindrome or not - ");  
+int n= sc.nextInt();  
+  
+  temp=n;    
+  while(n>0){    
+   r=n%10;  //getting remainder  
+   sum=(sum*10)+r;    
+   n=n/10;    
+  }    
+  if(temp==sum)    
+   System.out.println("palindrome number ");    
+  else    
+   System.out.println("not palindrome");    
+}  
+}
+import java.util.*;  
+
+
+
+public class SumOfNaturalNumber  
+{  
+public static void main(String[] args)   
+{  
+int i,sum = 0;
+Scanner sc= new Scanner(System.in);    //System.in is a standard input stream  
+System.out.print("Enter n value- ");  
+int n= sc.nextInt();  
+//executes until the condition returns true  
+for(i = 1; i <= n; ++i)  
+{  
+//adding the value of i into sum variable  
+sum = sum + i;  
+}  
+//prints the sum   
+System.out.println("Sum of Natural Numbers is = " + sum);  
+}  
+}
+import java.util.*;  
+
+
+
+class ThirdExample{  
+ public static void main(String args[]){  
+
+for(int i=1;i<=1000;i++){
+    if (i%10==0)
+    {
+        System.out.println(i); 
+    }
+}
+}
+}

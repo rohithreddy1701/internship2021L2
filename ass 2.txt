@@ -1,0 +1,86 @@
+public class ForLoopInfiniteExample {
+
+	public static void main(String[] args) {
+
+		// for loop condition to true.
+		// this loop runs forever.
+		for (; true;) {
+			// core logic
+			System.out.println("Running loop");
+		}
+	}
+}
+public class WhileLoopInfiniteExample {
+
+	public static void main(String[] args) {
+
+		// while loop condition to true.
+		// this loop runs forever.
+		while (true) {
+			// core logic
+			System.out.println("Running while loop");
+		}
+	}
+}
+public class DoWhileLoopInfiniteExample {
+	public static void main(String[] args) {
+
+		// do-while loop condition to true.
+		do  {
+			// core logic
+			System.out.println("Running do-while loop");
+		} while(true);
+	}
+}
+// Java program to demonstrate using
+// break to exit a loop
+
+class GFG {
+
+    public static void main(String[] args)
+
+    {
+
+        // Initially loop is set to run from 0-9
+
+        for (int i = 0; i < 10; i++) {
+
+            // Terminate the loop when i is 5
+
+            if (i == 5)
+
+                break;
+
+            System.out.println("i: " + i);
+
+        }
+
+        System.out.println("Out of Loop");
+
+    }
+// Java program to demonstrates the continue
+// statement to continue a loop
+
+class GFG {
+
+    public static void main(String args[])
+
+    {
+
+        for (int i = 0; i < 10; i++) {
+
+            // If the number is 2
+
+            // skip and continue
+
+            if (i == 2)
+
+                continue;
+ 
+
+            System.out.print(i + " ");
+
+        }
+
+    }
+}
