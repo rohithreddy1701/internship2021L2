@@ -1,1 +1,37 @@
-hello world
+{
+"Employees" : [
+{
+"userId":"rohith",
+"jobTitleName":"Developer",
+"firstName":"Rohith",
+"lastName":"reddy",
+"preferredFullName":"Rohith reddy",
+"employeeCode":"E1",
+"region":"indian",
+"phoneNumber":"9121191916",
+"emailAddress":"rohithreddy1701@gmail.com"
+},
+{
+"userId":"kumar",
+"jobTitleName":"Developer",
+"firstName":"kumar",
+"lastName":"reddy",
+"preferredFullName":"kumar reddy",
+"employeeCode":"E2",
+"region":"indian",
+"phoneNumber":"8712317944",
+"emailAddress":"kumarreddy@gmail.com"
+},
+{
+"userId":"ramu",
+"jobTitleName":"Program Directory",
+"firstName":"ramu",
+"lastName":"reddy",
+"preferredFullName":"ramu reddy",
+"employeeCode":"E3",
+"region":"indian",
+"phoneNumber":"9346175723",
+"emailAddress":"ramureddy@gmail.com"
+}
+]
+}
